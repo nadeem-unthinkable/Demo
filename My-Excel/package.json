@@ -1,0 +1,17 @@
+{
+  "name": "Excel-Clone-master",
+  "version": "1.0.0",
+  "description": "A desktop application using Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs-electron": "^2.1.0",
+    "jquery": "^3.5.1"
+  }
+}

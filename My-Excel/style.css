@@ -1,0 +1,179 @@
+/* presets */
+body,html{
+    margin:0px;
+    padding:0px;
+}
+*{
+    box-sizing:border-box;
+}
+button{
+    padding: 2px;
+}
+.menu-container{
+    height: 20px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    width:200px;
+}
+.menu-option-container{
+    height: 30px;
+    display: flex;
+    background-color: #ebebeb;
+}
+.menu-options{
+    /* width: 332px; */
+    /* height: 100px; */
+    justify-content: space-around;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;   
+    
+}
+.menu-options-home{
+    display: flex;
+}
+
+.style-row button.active{
+    background-color: grey;
+}
+.style-row{
+    margin-left: 30px;
+    margin-bottom: 13px;
+    padding: 5px;
+}
+.formula-container{
+    height: 50px;
+    background-color: #ebebeb;
+}
+.cell-container{
+    height: calc(100vh - 130px);
+    overflow: auto;
+    position: relative;
+}
+.sheets{
+    height: 20px;
+    border: 1px solid;
+}
+.row .cell,.top-row .cell{
+    border: 1px solid;
+    min-width: 80px;
+    /* width: 80px; */
+    text-align: center;
+    /* height: 25px; */
+        min-height: 25px; 
+        max-width:80px;  
+}
+.row{
+    display:flex;
+}
+.tl-cell{
+    height:25px;
+    width:25px;
+    background-color: darkgrey;
+    z-index: 3;
+    position: relative;
+}
+.top-row{
+    display: flex;
+    position: absolute;
+    left: 25px;
+    top: 0px;
+    z-index: 1;
+    background-color: #ebebeb;
+}
+.left-col .cell{
+    border: 1px solid;
+    width:25px;
+    height:25px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+.grid{
+    position: absolute;
+    top:25px;
+    left: 25px;
+    background-color: white;
+}
+
+.left-col{
+    position: absolute;
+    z-index: 1;
+}
+
+#address-input{
+    margin-top: 10px;
+    box-shadow: inset 0 0 3px grey;
+    height: 30px;
+    border-radius: 5px;
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+#formula-input{
+    margin-top: 10px;
+    box-shadow: inset 0 0 3px grey;
+    height: 30px;
+    border-radius: 5px;
+    width: 60%;
+    float: right;
+    margin-right: 10px;
+}
+#function-symbol{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+#function-equal{
+    font-size: 15px;
+    margin-left: 15px;
+}
+#font-family{
+    margin-left: 10px;
+    margin-top: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+    box-shadow: inset 0 0 3px grey;
+}
+#font-size{
+    margin-left: 10px;
+    margin-top: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+    box-shadow: inset 0 0 3px grey;
+}
+.cell-color{
+    margin-left: 10px;
+}
+.style-row{
+    margin-left: 10px;
+    padding: 5px;
+}
+.vertical-line{
+    border-left: 2px solid gray;
+    height: 25px;
+    left: 50%;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+#align-col{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.style-row-font{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: inset 0 0 3px grey;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+#top-nav{
+    background-color: darkcyan;
+}
